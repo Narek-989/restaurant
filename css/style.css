@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+header .nav-item{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Gentium Book Basic', serif;
+    margin: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.social_icons {
+    list-style: none;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.social_icons img:hover{
+    opacity: .5;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, .5);
+}    
+h1{
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+header .btn{
+    border-radius: 0px;
+    padding: 10px 30px;
+    margin: 30px 15px;
+    color: #fff;
+}
+header .btn-dark{
+    background-color: rgba(0, 0, 0,.5);
+}
+header .btn-light{
+    background-color: rgba(255, 255, 255,.5);
+}
+/* ----------------------------------SECTION-1--------------------------------- */
+#sec_1{
+    background-image: url(../img/sec_1_backgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    text-align: center;
+}
+.just{
+    padding-left: 190px;
+}
+.sec_1_1 h2{
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-top: 30px;
+}
+.sec_1_1 img{
+    margin-top: 20px;
+}
+.sec_1_1 p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+    padding: 20px 0;
+}
+.sec_1_1 img:last-child{
+    margin-left: 50px;
+}
+/* -----------------------sec_2---------------------- */
+#sec_2{
+    background-image: url(../img/sec_2_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.sec_2_child{
+    background-image: url(../img/sec_2-black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    width: 40%;
+    margin-left: 50%;
+    text-align: center;
+}
+.sec_2_child h2{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.sec_2_child img{
+    margin-top: 15px;
+}
+.sec_2_child p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    padding: 30px 70px 70px;
+}
+.sec_2_sm_img{
+    width: 70%;
+    margin: 0 auto;
+}
+/* --------------------------sec_3------------------- */
+#sec_3{
+    background-image: url(../img/sec_3_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.sec_3_1 h2{
+    font-size: 36px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+.sec_3_1_img{
+    text-align: center;
+    margin-top: 10px;
+}
+#line_horizontal,
+.sec_3_1_child{
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.sec_3_1_child_span_1{
+    font-size: 21px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+}
+.sec_3_1_child_span_2{
+    font-size: 21px;
+    color: #c89f2d;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: right;
+}
+.line{
+    border-bottom: 1px solid #e0d5ad;
+    margin-top: 5px;
+}
+#line_horizontal,
+.sec_3_1_child p{
+   text-align: left;
+   margin-top: 15px;
+}
+#line_horizontal{
+    border: 1px solid #e0d5ad;
+    padding: 10px;
+    position: relative;
+}
+#special{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Lato";
+    background-color: #d8bd71;
+    padding: 0 10px;
+    position: absolute;
+    top: -22px;
+    right: 0;
+}
+/* ----------------------sec_big_4-------------------- */
+#sec_4{
+    background-image: url(../img/sec_4_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.sec_4_child{
+    background-image: url(../img/sec_4bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 60px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.sec_4_child h2{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.sec_4_child p{
+    font-size: 25px;
+    line-height: 45px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+}
+.sec_4_child h5{
+    font-size: 18px;
+    line-height: 45px;
+    color: #dde0df;
+    font-weight: 700;
+    font-family: "Gentium Book Basic";
+}
+.sec_4_pn{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+/*-------------------------- sec_big_5------------------------------------------------------- */
+#sec_5{
+    background-image: url(../img/sec_5_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.sec_5_small{
+    text-align: center;
+}
+.sec_5_img_big img{
+    width: 100%;
+}
+.sec_5_small h2{
+    font-size: 36px;
+    line-height: 24px;
+    color: #cc9900;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.sec_5_small img{
+    margin-top: 20px;
+}
+.sec_5_small p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-top: 15px;
+    padding: 0 60px;
+}
+.input_big_1{
+    margin-top: 30px;
+}
+.input_form{
+    text-align: left;
+}
+.input_form label{
+    font-size: 18px;
+    color: #c9a131;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+.btn-warning{
+    background-color: #c9a131;
+    color: #fff;
+    margin-top: 30px;
+    padding: 5px 60px;
+    border-radius: 0px;
+}
+form{
+    padding: 0 50px;
+}
+/* ------------------FOOTER-------------------------- */
+footer{
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2{
+    font-size: 21px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+footer p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-top: 20px;
+    padding: 0 30px;
+}
+.icons{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @Media */
+@media screen and (max-width:1200px) {
+    header .nav-item {
+        margin: 0;
+    }
+    .navbar-expand-lg .navbar-collapse, .social_icons {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .social_icons img {
+        margin: 0 10px;
+    }
+    .just{
+        padding-left: 0;
+    }
+    .sec_5_img_big{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sec_5_small{
+        margin-top: 20px;
+    }
+    .icons{
+        margin: 0;
+    }
+    .sec_5_img_big img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:992px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    header .btn{
+        margin: 20px 20px 0;
+    }
+    #sec_2 .sec_2_child{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .sec_4_child{
+        width: 90%;
+    }
+}
+@media screen and (max-width:576px) {
+    .sec_1_1 p{
+        padding: 20px 20px 0;
+    }
+    .sec_1_1 h2{
+        font-size: 30px;
+    }
+    .sec_2_child{
+        padding: 20px;
+    }
+    .sec_2_child p{
+        padding: 10px;
+    } 
+    #sec_2{
+        padding: 20px 5px;
+    }
+    .input_form{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
